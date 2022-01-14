@@ -96,6 +96,42 @@ class MyApp extends StatelessWidget {
                 color: true,
                 textColor: true,
                 radius: true,
+              ),
+              MessageText(
+                alignment: true,
+                color: true,
+                textColor: true,
+                radius: true,
+              ),
+              MessageText(
+                alignment: false,
+                color: false,
+                textColor: false,
+                radius: false,
+              ),
+              MessageText(
+                alignment: true,
+                color: true,
+                textColor: true,
+                radius: true,
+              ),
+              MessageText(
+                alignment: true,
+                color: true,
+                textColor: true,
+                radius: true,
+              ),
+              MessageText(
+                alignment: false,
+                color: false,
+                textColor: false,
+                radius: false,
+              ),
+              MessageText(
+                alignment: true,
+                color: true,
+                textColor: true,
+                radius: true,
               )
             ],
           ),
@@ -185,8 +221,8 @@ class MessageText extends StatelessWidget {
             elevation: 6.0,
             borderRadius: radius
                 ? const BorderRadius.only(
+                    topRight: Radius.circular(31.0),
                     topLeft: Radius.circular(31.0),
-                    bottomLeft: Radius.circular(31.0),
                     bottomRight: Radius.circular(31.0),
                   )
                 : const BorderRadius.only(
